@@ -16,3 +16,6 @@ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 #in case of problems 
 sudo apt install php-xml
 composer require phpunit/phpunit
+
+#if using postgres then install the following
+sudo apt-get install php-pgsql
